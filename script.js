@@ -1,6 +1,6 @@
 let numero = document.querySelector("#numero");
 let porcentagem = document.querySelector("#porcentagem");
-let botao = document.querySelector(".calcular");
+let botaoCalcular = document.querySelector(".calcular");
 let resultado = document.querySelector(".resultado");
 
 botao.addEventListener("click", () => {
