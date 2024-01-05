@@ -26,8 +26,13 @@ h1 {
   flex-direction: column;
   align-items: center;
   gap: 10px;
-
   box-shadow: 0px 0px 10px #0000002d;
+}
+
+.container .numeros {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .container input {
@@ -38,10 +43,10 @@ h1 {
   background-color: #e0e3eb;
 }
 
-.container .numeros {
+.controles {
   display: flex;
   align-items: center;
-  gap: 10px;
+  margin: 25px 0;
 }
 
 button {
@@ -51,7 +56,7 @@ button {
   font-size: 15px;
   font-weight: 600;
   color: #fff;
-  background-color: rgb(130, 130, 246);
+  background-color: #8282f6;
   cursor: pointer;
 }
 
@@ -63,10 +68,4 @@ button {
   display: flex;
   justify-content: center;
   color: #84878f;
-}
-
-.controles {
-  display: flex;
-  align-items: center;
-  margin: 25px 0;
 }
