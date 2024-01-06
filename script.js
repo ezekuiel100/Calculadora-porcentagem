@@ -1,9 +1,9 @@
 let numero = document.querySelector("#numero");
 let porcentagem = document.querySelector("#porcentagem");
 let botaoCalcular = document.querySelector(".calcular");
-let resultado = document.querySelector(".resultado");
+let resultado = document.querySelector("#resultado");
 
-botao.addEventListener("click", () => {
+botaoCalcular.addEventListener("click", () => {
   if (!numero.value || !porcentagem.value) {
     alert("Insira ambos os valores");
     return;
@@ -15,5 +15,5 @@ botao.addEventListener("click", () => {
   }
 
   let calculo = (porcentagem.value / 100) * numero.value;
-  resultado.textContent = calculo.toFixed(2);
+  resultado.value = calculo;
 });
