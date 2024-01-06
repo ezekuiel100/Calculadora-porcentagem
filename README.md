@@ -1,1 +1,1 @@
-![Snapshot_2](https://github.com/ezekuiel100/Calculadora-porcentagem/assets/123255547/eafb718c-36d9-471d-8e66-bdd32ccfe9b7)
+![calculadora](https://github.com/ezekuiel100/Calculadora-porcentagem/assets/123255547/6d4d09a3-077a-4192-8d87-8897758f29b6)
